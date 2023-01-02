@@ -1,6 +1,3 @@
-CC=cc
-CFLAGS+=-g -c -I. -O
-O=o
-AR=ar
-ARFLAGS=rvc
-NAN=nan64.$O
+version https://git-lfs.github.com/spec/v1
+oid sha256:963e992edf71d7cf63c4e6680582ce02dcd8adb09858c18b9e4d635ed56126d3
+size 62

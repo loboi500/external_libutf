@@ -1,32 +1,3 @@
-/*
- * The authors of this software are Rob Pike and Ken Thompson.
- *              Copyright (c) 2002 by Lucent Technologies.
- * Permission to use, copy, modify, and distribute this software for any
- * purpose without fee is hereby granted, provided that this entire notice
- * is included in all copies of any software which is or includes a copy
- * or modification of this software and in all copies of the supporting
- * documentation for such software.
- * THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED
- * WARRANTY.  IN PARTICULAR, NEITHER THE AUTHORS NOR LUCENT TECHNOLOGIES MAKE ANY
- * REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY
- * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
- */
-#include <stdarg.h>
-#include <string.h>
-#include "utf.h"
-#include "utfdef.h"
-
-Rune*
-runestrecpy(Rune *s1, Rune *es1, const Rune *s2)
-{
-	if(s1 >= es1)
-		return s1;
-
-	while((*s1++ = *s2++) != 0){
-		if(s1 == es1){
-			*--s1 = '\0';
-			break;
-		}
-	}
-	return s1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9e581b01b7d9c26ec0e78ab731e10f012b0171db5247eb0eca75bca79c40a53
+size 1010

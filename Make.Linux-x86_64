@@ -1,6 +1,3 @@
-CC=gcc
-CFLAGS+=-Wall -Wno-missing-braces -Wno-parentheses -Wno-switch -fPIC -O2 -g -c -I.
-O=o
-AR=ar
-ARFLAGS=rvc
-NAN=nan64.$O
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd883022925fc04bbef2c0c9e4c80f1192b6aeefb735e33302047b06d49a33da
+size 125

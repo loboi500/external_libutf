@@ -1,4 +1,3 @@
-# Default code reviewers picked from top 3 or more developers.
-# Please update this list if you find better candidates.
-include platform/external/libtextclassifier:/OWNERS
-agutkin@google.com
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdd4ae2a6137c2bbd046359db3bc88ea0fa40a95cc47590b6edcc1876d4212f2
+size 191

@@ -1,2 +1,3 @@
-include Make.SunOS-sun4u-$(CC)
-NAN=nan64.$O
+version https://git-lfs.github.com/spec/v1
+oid sha256:16781a5d1480846acf92846412a6f2c45ac5a7384a28ebf15b4792922c911c17
+size 44

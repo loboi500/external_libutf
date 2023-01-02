@@ -1,16 +1,3 @@
-name: "utf"
-description: "Library for handling UTF-8"
-
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "http://swtch.com/plan9port/unix/"
-  }
-  url {
-    type: PIPER
-    value: "http://google3/third_party/libutf"
-  }
-  version: "1.1"
-  license_type: NOTICE
-  last_upgrade_date { year: 2018 month: 9 day: 19 }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:888d7ac3185dee4b4ac3a9f8cf86d91efe35ccb668c70abaabd09d1aae7b2a0c
+size 315
